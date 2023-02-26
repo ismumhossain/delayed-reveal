@@ -24,7 +24,7 @@ contract DelayReveal is ERC1155DelayedReveal {
         if(this.balanceOf(_claimer, _tokenId) == 5) {
             revert CanNotMintMore();
         }
-        if(block.timestamp != 1677146400) {
+        if(block.timestamp < 1677378600) {
             revert NotStarted();
         }
     }
