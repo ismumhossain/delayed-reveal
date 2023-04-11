@@ -1,3 +1,8 @@
+### This is a delayed reveal NFT project.
+It was built with the help of thirdweb prebuilt contract. 
+- The owner can reveal the metadata of NFT whenever he wants. 
+
+(The below writings came with the thirdweb project command)
 ## Getting Started
 
 Create a project using this example:
